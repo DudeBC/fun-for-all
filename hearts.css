@@ -1,0 +1,48 @@
+/* Styles for the main container */
+main {
+    text-align: center;
+}
+ .container {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(164, 213, 164);
+}
+
+.container {
+    text-align: center;
+}
+
+/* Styles for the player hand */
+#playerHand {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Styles for individual cards */
+.card {
+    width: 80px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 5px;
+    padding: 10px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer; /* Add pointer cursor to indicate clickable */
+}
+
+/* Styles for buttons */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style for the current trick display */
+#currentTrick {
+    margin-top: 20px;
+}
