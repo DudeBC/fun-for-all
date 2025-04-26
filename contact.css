@@ -1,0 +1,21 @@
+        .navbar-nav .nav-link {
+            font-size: 18px; /* Font size for navbar links */
+        }
+        h1 {
+            font-size: 75px; /* Font size for Contact Us title */
+            text-align: center; /* Center the title */
+            margin-top: 20px; /* Add top margin to the title */
+        }
+		p1 {
+            font-size: 25px; /* Font size for paragraph text */
+        }
+		p2 {
+            font-size: 15px; /* Font size for paragraph text */
+        }
+		form {
+            font-size: 25px; /* Font size for form text */
+        }
+		textarea#comments {
+            width: 90%; /* Set the width to 80% of its container */
+            max-width: none; 
+        }

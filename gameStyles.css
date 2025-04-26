@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(164, 213, 164);
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.pileZone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card {
+    display: flex;
+    width: 40px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+.count {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+/* Hearts */
+.card.H {
+    background-color: lightcoral;
+}
+
+/* Diamonds */
+.card.D {
+    background-color: lightgoldenrodyellow;
+}
+
+/* Spades */
+.card.S {
+    background-color: lightgreen;
+}
+
+/* Clubs */
+.card.C {
+    background-color: lightskyblue;
+}
